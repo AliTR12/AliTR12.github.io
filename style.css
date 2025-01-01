@@ -1,0 +1,29 @@
+.navbar, button, footer {
+    background: linear-gradient(to right, #6a63f2, #a457f7, #27e9ff);
+    background-size: 300%; /* Perbesar area gradasi */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* animation: gradientMove 3s infinite linear; */
+}
+
+/* @keyframes gradientMove {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 50%;
+    }
+    100% {
+        background-position: 100%;
+    }
+} */
+ .jumbotron, #projects {
+    background-color: #c2bffe;
+ }
+ .jumbotron, section {
+    padding-top: 5rem;
+ }
+ .text-justify {
+    text-align: justify;
+ }
+
