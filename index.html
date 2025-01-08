@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio | Ali Tawfiqur Rahman</title>
-    <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="appav.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   </head>
+
   <body>
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">ATR</a>
+        <a class="navbar-brand fw-bold text-white" href="#">ATR</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,10 +23,13 @@
               <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -37,173 +38,172 @@
         </div>
       </div>
     </nav>
-    <!-- home -->
-    <div class="jumbotron text-center" id="home">
-      <img src="1.jpg" alt="Ali" class="rounded-circle img-thumbnail" width="200" />
-      <h1 class="display-4 fw-medium">Ali Tawfiqur Rahman</h1>
-      <p class="lead fw-medium">Front End Developer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,160L21.8,144C43.6,128,87,96,131,101.3C174.5,107,218,149,262,181.3C305.5,213,349,235,393,234.7C436.4,235,480,213,524,224C567.3,235,611,277,655,266.7C698.2,256,742,192,785,181.3C829.1,171,873,213,916,234.7C960,256,1004,256,1047,240C1090.9,224,1135,192,1178,197.3C1221.8,203,1265,245,1309,224C1352.7,203,1396,117,1418,74.7L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
-        ></path>
-      </svg>
-    </div>
-    <!-- about -->
-    <section id="About">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
+    <main>
+      <div class="profile-container" id="home">
+        <aside class="avatar"><img src="assets/image/1.jpeg" alt="" /></aside>
+        <article class="kata-kata">
+          <h1>
+            Hello, It's Me
+            <br />
+            <br />
+            <p class="k-besar">Ali Tawfiqur Rahman</p>
+          </h1>
+          <p>And I am a Front-End Developer</p>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="row justify-content-evenly text-justify">
-          <div class="col-md-5">
-            <p>
-              I am a Front-End Developer. Saya seorang profesional di bidang teknologi dengan latar belakang kuat dalam desain UI/UX, pengembangan front-end, dan back-end. Dengan pengalaman beberapa tahun di industri ini, saya selalu
-              bersemangat menghadirkan solusi yang intuitif, fungsional, dan user-friendly untuk memenuhi kebutuhan klien.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <p>
-              Sebagai front-end developer, saya ahli dalam HTML, CSS, dan JavaScript serta berbagai framework seperti React dan Vue. Saya selalu mengikuti tren terbaru dan menekankan kode yang bersih serta struktur yang efisien. Tujuan saya
-              adalah menghadirkan tampilan yang menarik dan responsif di berbagai perangkat.
-            </p>
-          </div>
-        </div>
+          <button>More About Me</button>
+        </article>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#c2bffe"
-          fill-opacity="1"
-          d="M0,192L48,192C96,192,192,192,288,170.7C384,149,480,107,576,101.3C672,96,768,128,864,144C960,160,1056,160,1152,133.3C1248,107,1344,53,1392,26.7L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- project -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="projects/1.jpg" class="card-img-top" alt="project1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="projects/2.jpg" class="card-img-top" alt="project2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="projects/3.jpg" class="card-img-top" alt="project3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="projects/4.jpg" class="card-img-top" alt="project4" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="projects/5.jpg" class="card-img-top" alt="project5" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="1"
-          d="M0,64L48,106.7C96,149,192,235,288,229.3C384,224,480,128,576,96C672,64,768,96,864,112C960,128,1056,128,1152,112C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
-              <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="portfolio-contact-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
-              </div>
-              <button type="submit" class="btn text-white btn-kirim">Kirim</button>
-              <button class="btn btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                <span role="status">Loading...</span>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <defs>
-          <linearGradient id="gradient" x1="0" x2="1" y1="0" y2="0">
-            <stop offset="0%" stop-color="#6a63f2" />
-            <stop offset="100%" stop-color="#a457f7" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#gradient)"
-          fill-opacity="1"
-          d="M0,64L48,90.7C96,117,192,171,288,202.7C384,235,480,245,576,218.7C672,192,768,128,864,117.3C960,107,1056,149,1152,144C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- footer -->
-    <footer class="text-center text-white pb-4">
-      <p>Created With <i class="bi bi-heart-fill text-danger"></i> by <a class="text-white fw-bold" href="#">Ali Tawfiqur Rahman</a></p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+      <div class="profile-container-2" id="about">
+        <aside class="avatar-2"><img src="assets/image/1.jpeg" alt="" /></aside>
+        <article class="kata-kata-2">
+          <h1 class="k-besar">About <span>Me</span></h1>
+          <p><b> Ali Tawfiqur Rahman </b></p>
+          <p>
+            I am a Front-End Developer. Saya seorang profesional di bidang teknologi dengan latar belakang kuat dalam desain UI/UX, pengembangan front-end, dan back-end. Dengan pengalaman beberapa tahun di industri ini, saya selalu
+            bersemangat menghadirkan solusi yang intuitif, fungsional, dan user-friendly untuk memenuhi kebutuhan klien. Saya percaya bahwa setiap proyek adalah kesempatan untuk belajar dan menciptakan inovasi yang berdampak positif.
+          </p>
+          <button>More About Me</button>
+        </article>
+      </div>
+
+      <h1 id="skills" class="k-besar service mb-4">My <span>Services</span></h1>
+      <div class="container-skill">
+        <article class="kotak-skil">
+          <h1>UI/UX Design</h1>
+          <p>
+            Dalam UI/UX design, saya fokus menciptakan pengalaman pengguna yang intuitif dan visual yang menarik. Mulai dari riset, prototyping, hingga pengujian, saya mengutamakan pemahaman mendalam tentang kebutuhan pengguna. Setiap
+            elemen didesain untuk meningkatkan interaksi dan kepuasan pengguna, dengan pendekatan yang responsif dan modern.
+          </p>
+          <button>Contact Me</button>
+        </article>
+        <article class="kotak-skil">
+          <h1>Front-End Dev</h1>
+          <p>
+            Sebagai front-end developer, saya ahli dalam HTML, CSS, dan JavaScript serta berbagai framework seperti React dan Vue. Saya selalu mengikuti tren terbaru dan menekankan kode yang bersih serta struktur yang efisien. Tujuan saya
+            adalah menghadirkan tampilan yang menarik dan responsif di berbagai perangkat.
+          </p>
+          <button>Contact Me</button>
+        </article>
+        <article class="kotak-skil">
+          <h1>Back-End Dev</h1>
+          <p>
+            Dalam backend development, saya berpengalaman dalam menggunakan Node.js, Express, serta database seperti MongoDB dan MySQL. Saya memastikan bahwa sistem bekerja dengan lancar dan aman, serta selalu berupaya meningkatkan performa
+            dan skalabilitas aplikasi agar dapat memenuhi tuntutan pengguna.
+          </p>
+          <button>Contact Me</button>
+        </article>
+      </div>
+      <div class="mt-5">
+        <h1 id="project" class="k-besar service">Latest <span>Project</span></h1>
+        <div class="container-project">
+          <div class="project image1"></div>
+          <div class="project image2"></div>
+        </div>
+      </div>
+
+      <article id="contact" class="contact-cont mt-5">
+        <div class="kotak1">
+          <h1 class="k-besar">Contact <span>Me</span></h1>
+          <h1>Let's Work Together</h1>
+          <p>
+            Apakah Anda mencari kolaborator yang berdedikasi untuk mewujudkan ide dan proyek Anda? Saya terbuka untuk bekerja sama dalam menciptakan produk digital yang berkualitas dan bermanfaat. Mari bicarakan kebutuhan Anda dan bagaimana
+            saya dapat membantu mencapainya!
+          </p>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container">          
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+                <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              <form name="contact-form">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
+                </div>
+                <button type="submit" class="btn-kirim">Kirim</button>
+                <button class="btn btn-loading d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                  <span role="status">Loading...</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- <form name="contact-form" class="form-container">
+          <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email anda" required />
+          </div>
+          <div class="form-group">
+            <label for="saran">Saran:</label>
+            <textarea id="saran" name="saran" rows="6" placeholder="Masukkan Saran anda" required></textarea>
+          </div>
+          <button class="bb" type="submit">Kirim</button>
+        </form> -->
+      </article>
+    </main>
+    <footer>
+      <p>Created With <i class="bi bi-heart-fill text-danger"></i> by Ali Tawfiqur Rahman</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyrZclZ9xo5bWarQgZuavkNBiL0iR9KW2ok0V2PhTc8T8tcOxPng2ZPdtfqM6JKOlv-4g/exec";
-      const form = document.forms["portfolio-contact-form"];
+      const form = document.forms["contact-form"];
       const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");
       const alert = document.querySelector(".alert");
