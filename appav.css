@@ -116,6 +116,16 @@ aside img {
 
 h1 {
   font-size: large;
+  /* transform-style: preserve-3d;
+  animation: rotate 5s infinite linear; */
+}
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .k-besar {
@@ -392,4 +402,9 @@ footer p {
   .contact-cont .form-container {
     width: 95%;
   }
+}
+
+i {
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite linear;
 }
