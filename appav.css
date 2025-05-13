@@ -170,7 +170,7 @@ p {
 
 .social-links a:hover {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff;
-/*   transform: rotate(90deg); */
+  transform: rotate(90deg);
 }
 
 button {
@@ -404,7 +404,7 @@ footer p {
   }
 }
 
-i {
+/* i {
   transform-style: preserve-3d;
   animation: rotate 5s infinite linear;
-}
+} */
